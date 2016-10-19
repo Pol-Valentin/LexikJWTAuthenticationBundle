@@ -48,7 +48,8 @@
         "symfony/phpunit-bridge": "^2.8|^3.0",
         "symfony/browser-kit": "^2.8|^3.0",
         "friendsofphp/php-cs-fixer": "^1.1",
-        "lcobucci/jwt": "~3.2"
+        "lcobucci/jwt": "~3.2",
+        "silex/silex": "~2.0"
     },
     "suggest": {
         "gesdinet/jwt-refresh-token-bundle": "Implements a refresh token system over Json Web Tokens in Symfony",
