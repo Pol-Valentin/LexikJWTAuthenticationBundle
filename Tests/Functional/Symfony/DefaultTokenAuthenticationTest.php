@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional;
+namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony;
 
 /**
  * Tests the built-in authentication response mechanism.

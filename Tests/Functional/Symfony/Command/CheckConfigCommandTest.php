@@ -1,9 +1,9 @@
 <?php
 
-namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Command;
+namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\Command;
 
 use Lexik\Bundle\JWTAuthenticationBundle\Command\CheckConfigCommand;
-use Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\TestCase;
+use Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**

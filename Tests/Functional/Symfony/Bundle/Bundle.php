@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Bundle;
+namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle as BaseBundle;
 

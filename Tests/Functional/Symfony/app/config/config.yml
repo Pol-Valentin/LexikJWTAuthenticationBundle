@@ -42,7 +42,7 @@ security:
 
 services:
     lexik_jwt_authentication.test.jwt_event_subscriber:
-        class: Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Utils\CallableEventSubscriber
+        class: Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\Utils\CallableEventSubscriber
         shared: true
         tags:
             - { name: kernel.event_subscriber }

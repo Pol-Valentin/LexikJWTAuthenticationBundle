@@ -1,11 +1,11 @@
 <?php
 
-namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\DependencyInjection;
+namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\DependencyInjection;
 
 use Lexik\Bundle\JWTAuthenticationBundle\DependencyInjection\LexikJWTAuthenticationExtension;
 use Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle;
 use Lexik\Bundle\JWTAuthenticationBundle\Services\JWSProvider\DefaultJWSProvider;
-use Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\TestCase;
+use Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony\TestCase;
 use Symfony\Bundle\SecurityBundle\DependencyInjection\SecurityExtension;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

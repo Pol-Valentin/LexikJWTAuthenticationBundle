@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional;
+namespace Lexik\Bundle\JWTAuthenticationBundle\Tests\Functional\Symfony;
 
 use Symfony\Bundle\FrameworkBundle\Client;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
@@ -18,7 +18,7 @@ abstract class TestCase extends WebTestCase
      */
     protected static function createKernel(array $options = [])
     {
-        require_once __DIR__.'/app/AppKernel.php';
+        require_once __DIR__ . '/app/AppKernel.php';
 
         return new AppKernel(getenv('SYMFONY__JWT__ENCODER') ?: 'default', true);
     }
